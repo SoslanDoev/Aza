@@ -1,3 +1,5 @@
+console.log('Скоро...')
+
 let hours = document.querySelector('.hero__item-hour'),
     minutes = document.querySelector('.hero__item-minutes'),
     seconds = document.querySelector('.hero__item-seconds'),
