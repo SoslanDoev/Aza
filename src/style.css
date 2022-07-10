@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #2e3440;
+    background-color: #fff;
+    background-image: url("https://99px.ru/sstorage/86/2017/08/image_861608170031527929104.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 50px;
+    gap: 50px;
+}
+
+.hero__item {
+    text-align: center;
+    width: 300px;
+    word-break: break-all;
+}
